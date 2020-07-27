@@ -1,0 +1,14 @@
+.\objects\startup.o: ..\Platform\devices\startup.c
+.\objects\startup.o: ..\Platform\devices\startup.h
+.\objects\startup.o: ..\Platform\devices\device_registers.h
+.\objects\startup.o: ..\Platform\devices\common/s32_core_cm4.h
+.\objects\startup.o: ..\Platform\devices\S32K144/include/S32K144.h
+.\objects\startup.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\startup.o: ..\Platform\core_cm4.h
+.\objects\startup.o: ..\Platform\core_cmInstr.h
+.\objects\startup.o: ..\Platform\core_cmFunc.h
+.\objects\startup.o: ..\Platform\core_cm4_simd.h
+.\objects\startup.o: ..\Platform\devices\S32K144\startup\system_S32K144.h
+.\objects\startup.o: ..\Platform\devices\S32K144/include/S32K144_features.h
+.\objects\startup.o: ..\Platform\devices\devassert.h
+.\objects\startup.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

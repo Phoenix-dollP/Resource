@@ -1,0 +1,13 @@
+.\objects\system_s32k144.o: ..\Platform\devices\S32K144\startup\system_S32K144.c
+.\objects\system_s32k144.o: d:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h
+.\objects\system_s32k144.o: d:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices\common/s32_core_cm4.h
+.\objects\system_s32k144.o: d:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144/include/S32K144.h
+.\objects\system_s32k144.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_s32k144.o: ..\Platform\core_cm4.h
+.\objects\system_s32k144.o: ..\Platform\core_cmInstr.h
+.\objects\system_s32k144.o: ..\Platform\core_cmFunc.h
+.\objects\system_s32k144.o: ..\Platform\core_cm4_simd.h
+.\objects\system_s32k144.o: ..\Platform\devices\S32K144\startup\system_S32K144.h
+.\objects\system_s32k144.o: d:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144/include/S32K144_features.h
+.\objects\system_s32k144.o: d:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h
+.\objects\system_s32k144.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
