@@ -12,9 +12,9 @@
  * 以后我们要想操作这个任务都需要通过这个任务句柄，如果是自身的任务操作自己，那么
  * 这个句柄可以为NULL。
  */
-static TaskHandle_t AppTaskCreate_Handle = NULL;/* 创建任务句柄 */
-static TaskHandle_t Task1_Handle = NULL;/* LED任务句柄 */
-static TaskHandle_t Task2_Handle = NULL;/* KEY任务句柄 */
+TaskHandle_t AppTaskCreate_Handle = NULL;/* 创建任务句柄 */
+TaskHandle_t Task1_Handle = NULL;/* LED任务句柄 */
+TaskHandle_t Task2_Handle = NULL;/* KEY任务句柄 */
 
 /******************************** 内核对象句柄 *********************************/
 /*
@@ -82,7 +82,7 @@ void vApplicationMallocFailedHook  (void)
             第二步：创建APP应用任务
             第三步：启动FreeRTOS，开始多任务调度
   *****************************************************************************/
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
     BaseType_t xReturn;
 
@@ -141,7 +141,7 @@ void WDOG_disable(void)
   * @note
   *****************************************************************************/
 void App_Task1(void* parameter)
-{
+{     
     while(1)
     {
         PTE->PCOR |= 1 << PTE9;
