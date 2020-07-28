@@ -3,6 +3,9 @@
 #include "S32k144.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "Test.h"
+
+
 
 #define   PTE9  9
 
@@ -15,6 +18,7 @@
 TaskHandle_t AppTaskCreate_Handle = NULL;/* 创建任务句柄 */
 TaskHandle_t Task1_Handle = NULL;/* LED任务句柄 */
 TaskHandle_t Task2_Handle = NULL;/* KEY任务句柄 */
+TaskHandle_t Test_Task_Handle = NULL;/* KEY任务句柄 */
 
 /******************************** 内核对象句柄 *********************************/
 /*
@@ -115,6 +119,8 @@ void Bsp_Init(void)
 {
     WDOG_disable();
 
+    Test_Init();
+
     PCC->PCCn[PCC_PORTE_INDEX] = PCC_PCCn_CGC_MASK;
     
     PTE->PDDR |= 1 << PTE9;
@@ -144,7 +150,7 @@ void App_Task1(void* parameter)
 {     
     while(1)
     {
-        PTE->PCOR |= 1 << PTE9;
+        //PTE->PCOR |= 1 << PTE9;
         printf("hello\r\n");
         
         vTaskDelay(100);
@@ -162,7 +168,7 @@ void App_Task2(void* parameter)
 {
     while(1)
     {
-        PTE->PSOR |= 1 << PTE9;
+        //PTE->PSOR |= 1 << PTE9;
         printf("hello\r\n");
 
         vTaskDelay(100);
@@ -197,6 +203,18 @@ static void AppTaskCreate(void)
                         (void*          )NULL,
                         (UBaseType_t    )5, 
                         (TaskHandle_t*  )&Task2_Handle); 
+                
+    if (xReturn < 0)
+    {
+        printf("任务创建失败,Err:%d\r\n", xReturn);
+    }
+    
+    xReturn = xTaskCreate((TaskFunction_t )Test_task,  
+                        (const char*    )"Test_task",
+                        (uint16_t       )512,  
+                        (void*          )NULL,
+                        (UBaseType_t    )6, 
+                        (TaskHandle_t*  )&Test_Task_Handle); 
                 
     if (xReturn < 0)
     {

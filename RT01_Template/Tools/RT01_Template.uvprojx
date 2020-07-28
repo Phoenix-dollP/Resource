@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\Platform\devices\common;..\Platform\devices\S32K144\include;..\Platform\devices\S32K144\startup;..\Platform;..\Rtos;..\Rtos\FreeRTOS_S32K\Include;..\Rtos\FreeRTOS_S32K\Port\RVDS\ARM_CM4F</IncludePath>
+              <IncludePath>..\Platform\devices\common;..\Platform\devices\S32K144\include;..\Platform\devices\S32K144\startup;..\Platform;..\Rtos;..\Rtos\FreeRTOS_S32K\Include;..\Rtos\FreeRTOS_S32K\Port\RVDS\ARM_CM4F;..\Driver\Includes;..\Config\PBcfgs;..\App\Test</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -381,12 +381,33 @@
       <Groups>
         <Group>
           <GroupName>App</GroupName>
+          <Files>
+            <File>
+              <FileName>Test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\App\Test\Test.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Config</GroupName>
+          <Files>
+            <File>
+              <FileName>Port_PBcfg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Config\PBcfgs\Port_PBcfg.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Driver</GroupName>
+          <Files>
+            <File>
+              <FileName>port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Driver\Src\port.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Platform</GroupName>

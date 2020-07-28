@@ -9,7 +9,7 @@ Author: Steven
 ******************************************************************************/
 #include "Can_PBcfg.h"
 #include "CanIf_Cbk.h"
-#include "jlrx_can.h"
+//#include "jlrx_can.h"
 
 static const Can_IfCfgType CanIfCfg[] =
 {

@@ -8,7 +8,7 @@ File  : Spi_PBcfg.c SPI Master driver For Nxp S32K14x Series LPSPI
 Author: Steven 
 ******************************************************************************/
 #include "Spi_PBcfg.h"
-#include "GdcIf_Cbk.h"
+//#include "GdcIf_Cbk.h"
 
 static const Spi_ChCfgType SpiChCfg[] = 
 {

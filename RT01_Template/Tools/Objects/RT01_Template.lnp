@@ -1,4 +1,7 @@
 --cpu=Cortex-M4.fp
+".\objects\test.o"
+".\objects\port_pbcfg.o"
+".\objects\port.o"
 ".\objects\croutine.o"
 ".\objects\event_groups.o"
 ".\objects\list.o"
@@ -6,7 +9,7 @@
 ".\objects\tasks.o"
 ".\objects\timers.o"
 ".\objects\heap_4.o"
-".\objects\port.o"
+".\objects\port_1.o"
 ".\objects\main.o"
 ".\objects\startup.o"
 ".\objects\system_s32k144.o"

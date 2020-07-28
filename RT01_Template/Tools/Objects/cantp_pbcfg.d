@@ -1,0 +1,10 @@
+.\objects\cantp_pbcfg.o: ..\Config\PBcfgs\CanTp_PBcfg.c
+.\objects\cantp_pbcfg.o: ..\Config\PBcfgs\CanTp_PBcfg.h
+.\objects\cantp_pbcfg.o: ..\Driver\Includes\CanTp.h
+.\objects\cantp_pbcfg.o: ..\Driver\Includes\Std_Types.h
+.\objects\cantp_pbcfg.o: ..\Driver\Includes\Compiler.h
+.\objects\cantp_pbcfg.o: ..\Config\PBcfgs\CanTp_Define.h
+.\objects\cantp_pbcfg.o: ..\Driver\Includes\CanIf.h
+.\objects\cantp_pbcfg.o: ..\Config\PBcfgs\CanIf_Define.h
+.\objects\cantp_pbcfg.o: ..\Driver\Includes\Dcm_Cbk.h
+.\objects\cantp_pbcfg.o: ..\Config\PBcfgs\Dcm_Define.h

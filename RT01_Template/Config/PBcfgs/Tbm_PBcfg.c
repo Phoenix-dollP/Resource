@@ -8,8 +8,8 @@ File  : Tbm_PBcfg.c Timebase Moudle Driver(Nxp S32K14x Series SYSTICK Timer)
 Author: Steven
 ******************************************************************************/
 #include "Tbm_PBcfg.h"
-#include "Sbs_Cbk.h"
-
+//#include "Sbs_Cbk.h"
+#if 0
 static const Tbm_TimeCfgType TbmTimeCfg[] = 
 {
     /* TickCallback   CSRv */
@@ -23,4 +23,5 @@ static const Tbm_ConfigType TbmConfig =
 };
 
 const Tbm_ConfigType* const TbmCfgPtr = &TbmConfig;
+#endif
 
