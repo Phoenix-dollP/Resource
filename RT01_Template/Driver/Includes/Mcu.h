@@ -28,6 +28,8 @@ extern void Mcu_SetCoreClock(Mcu_ClockIdType ClockId);
 extern void Mcu_PerformReset(Mcu_ResetType ResetType);
 extern void Mcu_SetPeriClock(Mcu_PeriNameType PeriName, uint32 Param);
 
+extern void Clock_init(void);
+
 #ifdef __cplusplus
 }
 #endif

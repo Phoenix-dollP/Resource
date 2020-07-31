@@ -1,0 +1,9 @@
+.\objects\lpuart.o: ..\Driver\Src\lpuart.c
+.\objects\lpuart.o: ..\Platform\devices\S32K144\include\S32K144.h
+.\objects\lpuart.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lpuart.o: ..\Platform\core_cm4.h
+.\objects\lpuart.o: ..\Platform\core_cmInstr.h
+.\objects\lpuart.o: ..\Platform\core_cmFunc.h
+.\objects\lpuart.o: ..\Platform\core_cm4_simd.h
+.\objects\lpuart.o: ..\Platform\devices\S32K144\startup\system_S32K144.h
+.\objects\lpuart.o: ..\Driver\Include\lpuart.h

@@ -1,10 +1,10 @@
 .\objects\test.o: ..\App\Test\Test.c
+.\objects\test.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\test.o: ..\Driver\Includes\Port.h
 .\objects\test.o: ..\Driver\Includes\Std_Types.h
 .\objects\test.o: ..\Driver\Includes\Compiler.h
 .\objects\test.o: ..\Config\PBcfgs\Port_Define.h
 .\objects\test.o: ..\App\Test\Test.h
-.\objects\test.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\test.o: ..\Rtos\FreeRTOS_S32K\Include\FreeRTOS.h
 .\objects\test.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\test.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -16,3 +16,11 @@
 .\objects\test.o: ..\Rtos\FreeRTOS_S32K\Include\mpu_wrappers.h
 .\objects\test.o: ..\Rtos\FreeRTOS_S32K\Include\task.h
 .\objects\test.o: ..\Rtos\FreeRTOS_S32K\Include\list.h
+.\objects\test.o: ..\Driver\Includes\Mcu.h
+.\objects\test.o: ..\Driver\Includes\Mcu_Types.h
+.\objects\test.o: ..\Driver\Include\lpit.h
+.\objects\test.o: ..\Driver\Include\Dma.h
+.\objects\test.o: ..\Driver\Includes\adc.h
+.\objects\test.o: ..\Config\PBcfgs\Adc_Define.h
+.\objects\test.o: ..\Driver\Include\Lpuart.h
+.\objects\test.o: ..\App\DbgIf\Dbgif.h

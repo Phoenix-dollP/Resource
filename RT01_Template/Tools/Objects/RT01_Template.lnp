@@ -1,7 +1,13 @@
 --cpu=Cortex-M4.fp
 ".\objects\test.o"
+".\objects\dbgif.o"
 ".\objects\port_pbcfg.o"
 ".\objects\port.o"
+".\objects\mcu.o"
+".\objects\lpit.o"
+".\objects\dma.o"
+".\objects\adc.o"
+".\objects\lpuart.o"
 ".\objects\croutine.o"
 ".\objects\event_groups.o"
 ".\objects\list.o"

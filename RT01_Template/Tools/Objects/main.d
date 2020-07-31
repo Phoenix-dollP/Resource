@@ -18,3 +18,6 @@
 .\objects\main.o: ..\Rtos\FreeRTOS_S32K\Include\task.h
 .\objects\main.o: ..\Rtos\FreeRTOS_S32K\Include\list.h
 .\objects\main.o: ..\App\Test\Test.h
+.\objects\main.o: ..\App\DbgIf\DbgIf.h
+.\objects\main.o: ..\Driver\Includes\Std_Types.h
+.\objects\main.o: ..\Driver\Includes\Compiler.h

@@ -7,6 +7,14 @@ For commercial purposes, please contact the owner for permission.
 File  : Test.c 
 Author: Wander
 ******************************************************************************/
+#ifndef TEST_H
+#define TEST_H
+
 
 extern void Test_Init(void);
 extern void Test_task(void *parameter);   
+
+extern void Lpit_Test(void)   ;
+extern void Port_Test(void);
+
+ #endif

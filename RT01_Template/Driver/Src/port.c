@@ -53,7 +53,7 @@ void Port_Init(void)
   */
 void Port_DeInit(void)
 {
-    const Port_GpioCfgType* GpioCfg = PortCfgPtr->GpioCfg;
+    //const Port_GpioCfgType* GpioCfg = PortCfgPtr->GpioCfg;
     uint8 GpioNum = PortCfgPtr->GpioNum;
     const Port_PpcrCfgType* PpcrCfg = PortCfgPtr->PpcrCfg;
     uint8 PpcrNum = PortCfgPtr->PpcrNum;

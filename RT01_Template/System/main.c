@@ -4,7 +4,7 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "Test.h"
-
+#include "DbgIf.h"
 
 
 #define   PTE9  9
@@ -102,8 +102,11 @@ int main(int argc, char *argv[])
         
     if (xReturn < 0)
     {
-        printf("任务创建失败,Err:%d\r\n", xReturn);
+        //printf("任务创建失败,Err:%d\r\n", xReturn);
+        Dbgif_printf("AppTaskCreate任务创建失败,Err:%d\r\n", xReturn) ;
     }
+    
+    Dbgif_printf("AppTaskCreate任务创建成功\r\n") ;
 
     vTaskStartScheduler();
     
@@ -151,7 +154,7 @@ void App_Task1(void* parameter)
     while(1)
     {
         //PTE->PCOR |= 1 << PTE9;
-        printf("hello\r\n");
+        //printf("hello\r\n");
         
         vTaskDelay(100);
 
@@ -169,7 +172,7 @@ void App_Task2(void* parameter)
     while(1)
     {
         //PTE->PSOR |= 1 << PTE9;
-        printf("hello\r\n");
+        //printf("hello\r\n");
 
         vTaskDelay(100);
     }
@@ -194,8 +197,11 @@ static void AppTaskCreate(void)
                 
     if (xReturn < 0)
     {
-        printf("任务创建失败,Err:%d\r\n", xReturn);
+        //printf("任务创建失败,Err:%d\r\n", xReturn);
+        Dbgif_printf("App_Task1任务创建失败,Err:%d\r\n", xReturn) ;
     }
+    
+    Dbgif_printf("App_Task1任务创建成功\r\n") ;
     
     xReturn = xTaskCreate((TaskFunction_t )App_Task2,  
                         (const char*    )"App_Task2",
@@ -206,8 +212,11 @@ static void AppTaskCreate(void)
                 
     if (xReturn < 0)
     {
-        printf("任务创建失败,Err:%d\r\n", xReturn);
+        //printf("任务创建失败,Err:%d\r\n", xReturn);
+        Dbgif_printf("App_Task2任务创建失败,Err:%d\r\n", xReturn) ;
     }
+    
+    Dbgif_printf("App_Task2任务创建成功\r\n") ;
     
     xReturn = xTaskCreate((TaskFunction_t )Test_task,  
                         (const char*    )"Test_task",
@@ -218,8 +227,11 @@ static void AppTaskCreate(void)
                 
     if (xReturn < 0)
     {
-        printf("任务创建失败,Err:%d\r\n", xReturn);
+        //printf("任务创建失败,Err:%d\r\n", xReturn);
+        Dbgif_printf("Test_task任务创建失败,Err:%d\r\n", xReturn) ;
     }
+    
+    Dbgif_printf("Test_task任务创建成功\r\n") ;
 
     vTaskDelete(AppTaskCreate_Handle);
 }
