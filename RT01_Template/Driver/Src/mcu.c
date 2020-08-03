@@ -48,7 +48,7 @@ void SPLL_Init_160MHz(void)
     while(SCG->SPLLCSR & SCG_SPLLCSR_LK_MASK);/* Ensure SPLLCSR unlocked */
 
     SCG->SPLLCSR = 0X00000000;  /* SPLLEN=0: SPLL is disabled (default) */
-    SCG->SPLLDIV = 0X00000302;  /* SPLLDIV1 divide by 2; SPLLDIV2 divide by 4 */
+    SCG->SPLLDIV = 0X00000202;  /* SPLLDIV1 divide by 2; SPLLDIV2 divide by 4 */
     SCG->SPLLCFG = 0X00180000;  /* PREDIV=0: Divide SOSC_CLK by 0+1=1 */
                                 /* MULT=24: Multiply sys pll by 4+24=40 */
                                 /* SPLL_CLK = 8MHz / 1 * 40 / 2 = 160 MHz */

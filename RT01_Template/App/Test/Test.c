@@ -18,6 +18,7 @@ Author: Wander
 #include "adc.h"
 #include "Lpuart.h"
 #include "Dbgif.h"
+#include "Flexcan.h"
 
 
 /*******************************************************************************
@@ -37,6 +38,8 @@ void Test_Init(void)
     Lpuart2_transmit_string(">>");
     Lpuart2_transmit_string("hello world\r\n");
     Dbgif_printf("Test init success\r\n") ;
+    
+    FLEXCAN0_init();
     
 }
 
@@ -84,6 +87,18 @@ void Test_Init(void)
 //     Lpuart2_transmit_char('>');
 //     Lpuart2_receive_and_echo_char();
  }
+ 
+/*******************************************************************************
+ * @brief  Test_task
+ * @param  无
+ * @retval 无
+ * @note
+ ******************************************************************************/
+void Flexcan_Test(void)
+{
+    FLEXCAN0_Task();
+}
+
 
 /*******************************************************************************
 * @brief  Port_Test 模块
@@ -112,7 +127,8 @@ void Test_task(void *parameter)
         //printf("hello world\r\n");
         LPIT0_Test();
         Lpuart_Test();
+        Flexcan_Test();
         
-        vTaskDelay(100);
+        vTaskDelay(1);
     }
 }

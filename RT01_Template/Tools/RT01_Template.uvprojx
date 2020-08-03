@@ -437,6 +437,11 @@
               <FileType>1</FileType>
               <FilePath>..\Driver\Src\lpuart.c</FilePath>
             </File>
+            <File>
+              <FileName>Flexcan.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Driver\Src\Flexcan.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

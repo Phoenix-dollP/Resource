@@ -24,3 +24,4 @@
 .\objects\test.o: ..\Config\PBcfgs\Adc_Define.h
 .\objects\test.o: ..\Driver\Include\Lpuart.h
 .\objects\test.o: ..\App\DbgIf\Dbgif.h
+.\objects\test.o: ..\Driver\Include\Flexcan.h

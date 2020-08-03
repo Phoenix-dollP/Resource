@@ -1,0 +1,9 @@
+.\objects\flexcan.o: ..\Driver\Src\Flexcan.c
+.\objects\flexcan.o: ..\Platform\devices\S32K144\include\S32K144.h
+.\objects\flexcan.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flexcan.o: ..\Platform\core_cm4.h
+.\objects\flexcan.o: ..\Platform\core_cmInstr.h
+.\objects\flexcan.o: ..\Platform\core_cmFunc.h
+.\objects\flexcan.o: ..\Platform\core_cm4_simd.h
+.\objects\flexcan.o: ..\Platform\devices\S32K144\startup\system_S32K144.h
+.\objects\flexcan.o: ..\Driver\Include\FlexCAN.h

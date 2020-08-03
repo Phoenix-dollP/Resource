@@ -8,6 +8,7 @@
 ".\objects\dma.o"
 ".\objects\adc.o"
 ".\objects\lpuart.o"
+".\objects\flexcan.o"
 ".\objects\croutine.o"
 ".\objects\event_groups.o"
 ".\objects\list.o"

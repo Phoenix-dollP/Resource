@@ -38,7 +38,7 @@ void Lpuart2_init(void)
     PCC->PCCn[PCC_LPUART2_INDEX] |= PCC_PCCn_PCS(0b110);     /* Clock Src= 1 (SPLLDIV2_CLK) 40MHz*/
     PCC->PCCn[PCC_LPUART2_INDEX] |= PCC_PCCn_CGC_MASK;   /* Ensure clk disabled for config */
  #ifdef BAUD_115200
-    LPUART2->BAUD = 0x0F000016;     /* Initialize for 115200 baud, 1 stop: */
+    LPUART2->BAUD = 0x0F00002B;     /* Initialize for 115200 baud, 1 stop: */
                                     /* SBR=21 (0x15): baud divisor = 40M/115200/16 = ~15 */
                                     /* OSR=15: Over sampling ratio = 15+1=16 */
                                     /* SBNS=0: One stop bit */
