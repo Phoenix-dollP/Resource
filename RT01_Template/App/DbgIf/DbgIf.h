@@ -12,9 +12,8 @@ Author: Steven
 
 #include "Std_Types.h"
 
-#define DEBUG 1
 
-#if (DEBUG == 1)
+#ifdef DEBUG
 #define DG_printf Dbgif_printf
 #else
 #define DG_printf 

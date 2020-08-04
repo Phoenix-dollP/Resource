@@ -7,3 +7,6 @@
 .\objects\flexcan.o: ..\Platform\core_cm4_simd.h
 .\objects\flexcan.o: ..\Platform\devices\S32K144\startup\system_S32K144.h
 .\objects\flexcan.o: ..\Driver\Include\FlexCAN.h
+.\objects\flexcan.o: ..\App\DbgIf\DbgIf.h
+.\objects\flexcan.o: ..\Driver\Includes\Std_Types.h
+.\objects\flexcan.o: ..\Driver\Includes\Compiler.h
