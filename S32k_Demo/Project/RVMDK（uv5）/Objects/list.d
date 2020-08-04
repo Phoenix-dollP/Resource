@@ -1,0 +1,12 @@
+.\objects\list.o: ..\..\System\Rtos\FreeRTOS_S32K\list.c
+.\objects\list.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\list.o: ..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h
+.\objects\list.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\list.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\list.o: ..\..\System\Rtos\FreeRTOSConfig.h
+.\objects\list.o: ..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h
+.\objects\list.o: ..\..\System\Rtos\FreeRTOS_S32K\include\portable.h
+.\objects\list.o: ..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h
+.\objects\list.o: ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h
+.\objects\list.o: ..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h
+.\objects\list.o: ..\..\System\Rtos\FreeRTOS_S32K\include\list.h

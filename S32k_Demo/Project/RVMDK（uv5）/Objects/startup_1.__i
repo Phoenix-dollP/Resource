@@ -1,0 +1,8 @@
+--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup
+-I.\RTE\Device\S32K144HAxxxLHx
+-I.\RTE\_S32K_Demo
+-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices
+-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices\common
+-D__UVISION_VERSION="526" -D_RTE_ -DCPU_S32K144HFT0VLLT
+-o .\objects\startup_1.o --omf_browse .\objects\startup_1.crf --depend .\objects\startup_1.d "d:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices\startup.c"

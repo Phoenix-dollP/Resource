@@ -90,7 +90,8 @@ void FLEXCAN0_init(void)
                                         /* SMP = 1: use 1 bits per CAN sample 							*/
                                         /* CLKSRC=0 (unchanged): Fcanclk= Fosc= 8 MHz 					*/
                 |CAN_CTRL1_BOFFMSK(1)
-                |CAN_CTRL1_ERRMSK(1);
+                //|CAN_CTRL1_ERRMSK(1)
+                ;
 
     for(i=0; i<128; i++ )
     {   					/* CAN0: clear 32 msg bufs x 4 words/msg buf = 128 words */

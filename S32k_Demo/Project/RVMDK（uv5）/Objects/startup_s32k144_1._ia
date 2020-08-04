@@ -1,0 +1,8 @@
+--cpu Cortex-M4.fp -g --apcs=interwork 
+-I.\RTE\Device\S32K144HAxxxLHx
+-I.\RTE\_S32K_Demo
+-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices
+-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices\common
+--pd "__UVISION_VERSION SETA 526" --pd "_RTE_ SETA 1" --pd "CPU_S32K144HFT0VLLT SETA 1"
+--list .\listings\startup_s32k144.lst --xref -o .\objects\startup_s32k144_1.o --depend .\objects\startup_s32k144_1.d "RTE\Device\S32K144HAxxxLHx\startup_S32K144.s"

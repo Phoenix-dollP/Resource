@@ -1,0 +1,15 @@
+.\objects\queue.o: ..\..\System\Rtos\FreeRTOS_S32K\queue.c
+.\objects\queue.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\queue.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\queue.o: ..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h
+.\objects\queue.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\queue.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\queue.o: ..\..\System\Rtos\FreeRTOSConfig.h
+.\objects\queue.o: ..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h
+.\objects\queue.o: ..\..\System\Rtos\FreeRTOS_S32K\include\portable.h
+.\objects\queue.o: ..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h
+.\objects\queue.o: ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h
+.\objects\queue.o: ..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h
+.\objects\queue.o: ..\..\System\Rtos\FreeRTOS_S32K\include\task.h
+.\objects\queue.o: ..\..\System\Rtos\FreeRTOS_S32K\include\list.h
+.\objects\queue.o: ..\..\System\Rtos\FreeRTOS_S32K\include\queue.h

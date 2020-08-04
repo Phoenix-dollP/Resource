@@ -1,0 +1,13 @@
+.\objects\heap_4.o: ..\..\System\Rtos\FreeRTOS_S32K\portable\MemMang\heap_4.c
+.\objects\heap_4.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\heap_4.o: ..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h
+.\objects\heap_4.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\heap_4.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\heap_4.o: ..\..\System\Rtos\FreeRTOSConfig.h
+.\objects\heap_4.o: ..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h
+.\objects\heap_4.o: ..\..\System\Rtos\FreeRTOS_S32K\include\portable.h
+.\objects\heap_4.o: ..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h
+.\objects\heap_4.o: ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h
+.\objects\heap_4.o: ..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h
+.\objects\heap_4.o: ..\..\System\Rtos\FreeRTOS_S32K\include\task.h
+.\objects\heap_4.o: ..\..\System\Rtos\FreeRTOS_S32K\include\list.h

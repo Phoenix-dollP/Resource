@@ -1,0 +1,167 @@
+Dependencies for Project 'S32k_Demo', Target 'S32K_Demo': (DO NOT MODIFY !)
+F (..\..\System\Rtos\FreeRTOSConfig.h)(0x5F292EB3)()
+F (..\..\System\Rtos\FreeRTOS_S32K\croutine.c)(0x5E3D7B97)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup -I ..\..\System\Rtos\FreeRTOS_S32K\include -I ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F -I ..\..\System\Rtos-I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DCPU_S32K144HFT0VLLT-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h)(0x5E3DBA85)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\System\Rtos\FreeRTOSConfig.h)(0x5F292EB3)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\portable.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h)(0x5E3D7B9C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\task.h)(0x5E3DD7B6)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\list.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\croutine.h)(0x5E3D7B97)
+F (..\..\System\Rtos\FreeRTOS_S32K\event_groups.c)(0x5E3D7B97)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup -I ..\..\System\Rtos\FreeRTOS_S32K\include -I ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F -I ..\..\System\Rtos-I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DCPU_S32K144HFT0VLLT-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h)(0x5E3DBA85)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\System\Rtos\FreeRTOSConfig.h)(0x5F292EB3)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\portable.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h)(0x5E3D7B9C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\task.h)(0x5E3DD7B6)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\list.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\timers.h)(0x5E3D7B98)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\event_groups.h)(0x5E3D7B97)
+F (..\..\System\Rtos\FreeRTOS_S32K\list.c)(0x5E3D7B98)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup -I ..\..\System\Rtos\FreeRTOS_S32K\include -I ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F -I ..\..\System\Rtos-I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DCPU_S32K144HFT0VLLT-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h)(0x5E3DBA85)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\System\Rtos\FreeRTOSConfig.h)(0x5F292EB3)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\portable.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h)(0x5E3D7B9C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\list.h)(0x5E3D7B97)
+F (..\..\System\Rtos\FreeRTOS_S32K\queue.c)(0x5E3D7B9D)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup -I ..\..\System\Rtos\FreeRTOS_S32K\include -I ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F -I ..\..\System\Rtos-I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DCPU_S32K144HFT0VLLT-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h)(0x5E3DBA85)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\System\Rtos\FreeRTOSConfig.h)(0x5F292EB3)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\portable.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h)(0x5E3D7B9C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\task.h)(0x5E3DD7B6)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\list.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\queue.h)(0x5E3D7B97)
+F (..\..\System\Rtos\FreeRTOS_S32K\stream_buffer.c)(0x5E3D7B9D)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup -I ..\..\System\Rtos\FreeRTOS_S32K\include -I ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F -I ..\..\System\Rtos-I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DCPU_S32K144HFT0VLLT-o .\objects\stream_buffer.o --omf_browse .\objects\stream_buffer.crf --depend .\objects\stream_buffer.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h)(0x5E3DBA85)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (..\..\System\Rtos\FreeRTOSConfig.h)(0x5F292EB3)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\portable.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h)(0x5E3D7B9C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\task.h)(0x5E3DD7B6)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\list.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\stream_buffer.h)(0x5E3D7B97)
+F (..\..\System\Rtos\FreeRTOS_S32K\tasks.c)(0x5E3D7B9D)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup -I ..\..\System\Rtos\FreeRTOS_S32K\include -I ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F -I ..\..\System\Rtos-I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DCPU_S32K144HFT0VLLT-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h)(0x5E3DBA85)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\System\Rtos\FreeRTOSConfig.h)(0x5F292EB3)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\portable.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h)(0x5E3D7B9C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\task.h)(0x5E3DD7B6)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\list.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\timers.h)(0x5E3D7B98)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\stack_macros.h)(0x5E3D7B97)
+F (..\..\System\Rtos\FreeRTOS_S32K\timers.c)(0x5E3D7B9D)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup -I ..\..\System\Rtos\FreeRTOS_S32K\include -I ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F -I ..\..\System\Rtos-I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DCPU_S32K144HFT0VLLT-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h)(0x5E3DBA85)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\System\Rtos\FreeRTOSConfig.h)(0x5F292EB3)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\portable.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h)(0x5E3D7B9C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\task.h)(0x5E3DD7B6)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\list.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\queue.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\timers.h)(0x5E3D7B98)
+F (..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\port.c)(0x5E3D7B9C)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup -I ..\..\System\Rtos\FreeRTOS_S32K\include -I ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F -I ..\..\System\Rtos-I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DCPU_S32K144HFT0VLLT-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h)(0x5E3DBA85)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\System\Rtos\FreeRTOSConfig.h)(0x5F292EB3)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\portable.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h)(0x5E3D7B9C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\task.h)(0x5E3DD7B6)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\list.h)(0x5E3D7B97)
+F (..\..\System\Rtos\FreeRTOS_S32K\portable\MemMang\heap_4.c)(0x5E3D7B9B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup -I ..\..\System\Rtos\FreeRTOS_S32K\include -I ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F -I ..\..\System\Rtos-I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DCPU_S32K144HFT0VLLT-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h)(0x5E3DBA85)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\System\Rtos\FreeRTOSConfig.h)(0x5F292EB3)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\portable.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h)(0x5E3D7B9C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\task.h)(0x5E3DD7B6)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\list.h)(0x5E3D7B97)
+F (..\..\System\EcuM\EcuM.c)(0x5F292F00)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup -I ..\..\System\Rtos\FreeRTOS_S32K\include -I ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F -I ..\..\System\Rtos-I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DCPU_S32K144HFT0VLLT-o .\objects\ecum.o --omf_browse .\objects\ecum.crf --depend .\objects\ecum.d)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h)(0x5E3DBA85)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\System\Rtos\FreeRTOSConfig.h)(0x5F292EB3)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\portable.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h)(0x5E3D7B9C)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h)(0x5E3D7B97)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\task.h)(0x5E3DD7B6)
+I (..\..\System\Rtos\FreeRTOS_S32K\include\list.h)(0x5E3D7B97)
+F (..\..\Platform\devices\startup.c)(0x5A3B53E6)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup -I ..\..\System\Rtos\FreeRTOS_S32K\include -I ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F -I ..\..\System\Rtos-I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DCPU_S32K144HFT0VLLT-o .\objects\startup.o --omf_browse .\objects\startup.crf --depend .\objects\startup.d)
+I (..\..\Platform\devices\startup.h)(0x5A1EA756)
+I (..\..\Platform\devices\device_registers.h)(0x5A1EA756)
+I (..\..\Platform\devices\common/s32_core_cm4.h)(0x5A3B53E6)
+I (..\..\Platform\devices\S32K144/include/S32K144.h)(0x5A3B53E6)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\Platform\core_cm4.h)(0x5F0EC2CF)
+I (..\..\Platform\core_cmInstr.h)(0x5F0EC2CF)
+I (..\..\Platform\core_cmFunc.h)(0x5F0EC2CF)
+I (..\..\Platform\core_cm4_simd.h)(0x5F0EC2CF)
+I (..\..\Platform\devices\S32K144\startup\system_S32K144.h)(0x5A1EA726)
+I (..\..\Platform\devices\S32K144/include/S32K144_features.h)(0x5A1EA726)
+I (..\..\Platform\devices\devassert.h)(0x5A1EA756)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)
+F (..\..\Platform\devices\S32K144\startup\arm\startup_S32K144.s)(0x5A3B53E6)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526" --pd "CPU_S32K144HFT0VLLT SETA 1"--list .\listings\startup_s32k144.lst --xref -o .\objects\startup_s32k144.o --depend .\objects\startup_s32k144.d)
+F (..\..\Platform\devices\S32K144\startup\system_S32K144.c)(0x5A1EA726)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Platform -I ..\..\Platform\devices -I ..\..\Platform\devices\common -I ..\..\Platform\devices\S32K144\include -I ..\..\Platform\devices\S32K144\startup -I ..\..\System\Rtos\FreeRTOS_S32K\include -I ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F -I ..\..\System\Rtos-I.\RTE\_S32K_Demo-Id:\Keil_v5\ARM\PACK\Keil\S32_SDK_DFP\1.2.0\platform\devices-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DCPU_S32K144HFT0VLLT-o .\objects\system_s32k144.o --omf_browse .\objects\system_s32k144.crf --depend .\objects\system_s32k144.d)
+I (..\..\Platform\devices\device_registers.h)(0x5A1EA756)
+I (..\..\Platform\devices\common/s32_core_cm4.h)(0x5A3B53E6)
+I (..\..\Platform\devices\S32K144/include/S32K144.h)(0x5A3B53E6)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\Platform\core_cm4.h)(0x5F0EC2CF)
+I (..\..\Platform\core_cmInstr.h)(0x5F0EC2CF)
+I (..\..\Platform\core_cmFunc.h)(0x5F0EC2CF)
+I (..\..\Platform\core_cm4_simd.h)(0x5F0EC2CF)
+I (..\..\Platform\devices\S32K144\startup\system_S32K144.h)(0x5A1EA726)
+I (..\..\Platform\devices\S32K144/include/S32K144_features.h)(0x5A1EA726)
+I (..\..\Platform\devices\devassert.h)(0x5A1EA756)
+I (d:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599EDB3E)

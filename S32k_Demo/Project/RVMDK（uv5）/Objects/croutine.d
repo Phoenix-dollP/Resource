@@ -1,0 +1,14 @@
+.\objects\croutine.o: ..\..\System\Rtos\FreeRTOS_S32K\croutine.c
+.\objects\croutine.o: ..\..\System\Rtos\FreeRTOS_S32K\include\FreeRTOS.h
+.\objects\croutine.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\croutine.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\croutine.o: ..\..\System\Rtos\FreeRTOSConfig.h
+.\objects\croutine.o: ..\..\System\Rtos\FreeRTOS_S32K\include\projdefs.h
+.\objects\croutine.o: ..\..\System\Rtos\FreeRTOS_S32K\include\portable.h
+.\objects\croutine.o: ..\..\System\Rtos\FreeRTOS_S32K\include\deprecated_definitions.h
+.\objects\croutine.o: ..\..\System\Rtos\FreeRTOS_S32K\portable\ARM_CM4F\portmacro.h
+.\objects\croutine.o: ..\..\System\Rtos\FreeRTOS_S32K\include\mpu_wrappers.h
+.\objects\croutine.o: ..\..\System\Rtos\FreeRTOS_S32K\include\task.h
+.\objects\croutine.o: ..\..\System\Rtos\FreeRTOS_S32K\include\list.h
+.\objects\croutine.o: ..\..\System\Rtos\FreeRTOS_S32K\include\croutine.h
+.\objects\croutine.o: ..\..\System\Rtos\FreeRTOS_S32K\include\list.h
