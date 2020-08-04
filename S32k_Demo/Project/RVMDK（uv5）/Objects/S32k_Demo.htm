@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\S32k_Demo.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\S32k_Demo.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Aug 04 17:48:51 2020
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Aug 04 18:11:26 2020
 <BR><P>
 <H3>Maximum Stack Usage =         32 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -765,7 +765,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_s32k144.o(.text)
 </UL>
-<P><STRONG><a name="[95]"></a>main</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, ecum.o(i.main))
+<P><STRONG><a name="[95]"></a>main</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, ecum.o(i.main))
 <BR><BR>[Called By]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
@@ -773,11 +773,11 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskIncrementTick
 </UL>
 
-<P><STRONG><a name="[9e]"></a>vApplicationStackOverflowHook</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, ecum.o(i.vApplicationStackOverflowHook))
+<P><STRONG><a name="[9e]"></a>vApplicationStackOverflowHook</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, schm.o(i.vApplicationStackOverflowHook))
 <BR><BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSwitchContext
 </UL>
 
-<P><STRONG><a name="[a2]"></a>vApplicationTickHook</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, ecum.o(i.vApplicationTickHook))
+<P><STRONG><a name="[a2]"></a>vApplicationTickHook</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, schm.o(i.vApplicationTickHook))
 <BR><BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskIncrementTick
 </UL>
 

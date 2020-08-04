@@ -460,6 +460,11 @@
           <GroupName>System</GroupName>
           <Files>
             <File>
+              <FileName>SchM.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\System\SchM\SchM.c</FilePath>
+            </File>
+            <File>
               <FileName>EcuM.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\System\EcuM\EcuM.c</FilePath>

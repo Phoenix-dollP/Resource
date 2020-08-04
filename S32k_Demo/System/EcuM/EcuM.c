@@ -1,34 +1,22 @@
+/******************************************************************************
+Copyright (C) 2019 Steven, mculib.net All Rights Reserved
 
-#include "FreeRTOS.h"
-#include "task.h"
+This software and code can be freely used for study and research. 
+For commercial purposes, please contact the owner for permission.
 
-/*******************************************************************************
-  * @brief  钩子函数
+File  : SchM.c  Schedule Manage Unit
+Author: Wander
+******************************************************************************/
+
+
+
+/******************************************************************************
+  * @brief  主函数
   * @param  无
   * @retval 无
   * @note
-  *****************************************************************************/
-void vApplicationStackOverflowHook  (TaskHandle_t xTask, char *pcTaskname)
-{
-
-}
-
-void vApplicationIdleHook (void)
-{
-
-}
-
-void vApplicationTickHook  (void)
-{
-
-}
-
-void vApplicationMallocFailedHook  (void)
-{
-
-}
-
-int main()
+  ****************************************************************************/
+int main(int argc , char *argv[])
 {
     return 0;
 }

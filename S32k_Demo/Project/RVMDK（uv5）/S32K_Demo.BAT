@@ -12,6 +12,7 @@ SET CPU_CLOCK=0x00B71B00
 "d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\timers.__i"
 "d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\port.__i"
 "d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\heap_4.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\schm.__i"
 "d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\ecum.__i"
 "d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\startup.__i"
 "d:\Keil_v5\ARM\ARMCC\Bin\ArmAsm" --Via ".\objects\startup_s32k144._ia"

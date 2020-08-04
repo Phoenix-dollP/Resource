@@ -8,6 +8,7 @@
 ".\objects\timers.o"
 ".\objects\port.o"
 ".\objects\heap_4.o"
+".\objects\schm.o"
 ".\objects\ecum.o"
 ".\objects\startup.o"
 ".\objects\startup_s32k144.o"
