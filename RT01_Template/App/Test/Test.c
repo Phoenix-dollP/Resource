@@ -129,6 +129,6 @@ void Test_task(void *parameter)
         Lpuart_Test();
         Flexcan_Test();
         
-        vTaskDelay(1);
+        vTaskDelay(100);
     }
 }
